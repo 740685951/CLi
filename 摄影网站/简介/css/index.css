@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    /*width: 1519.2px;*/
+    width: 100%;
+    height: auto;
+}
+.top{
+    width: 100%;
+    height:158px;
+    background: #151515;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top .left{
+    width: 310px;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+}
+.top .left h1{
+    font-size: 30px;
+    color: #f13a3a;
+    line-height: 100%;
+}
+.top .left h2{
+    font-size: 30px;
+    color: #ffffff;
+}
+.top .right{
+    width: 440px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.top .right .box{
+    width: 25%;
+    height: 50px;
+}
+.top .right .box a:hover{
+    color: #f1291d;
+}
+.top .right .box a{
+    font-size: 17px;
+    color: #555555;
+    text-align: center;
+    line-height: 50px;
+}
+.top .right .box .active{
+    color: #f1291d;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/banner.png");
+}
+.abus{
+    width: 100%;
+    height: 580px;
+    background: #151515;
+    padding: 82px 0;
+
+}
+.abus .top{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+}
+.abus .top h1{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: normal;
+    text-align: center;
+}
+.abus .top p{
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+.abus .bottom{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.abus .buttom .left{
+    width: 528px;
+    float: left;
+}
+.abus .bottom .left .top1{
+    width: 528px;
+    height: 69px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 160px;
+    line-height: 35px;
+}
+.abus .bottom .left .di{
+    width: 528px;
+    height: 104px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 160px;
+    line-height: 35px;
+}
+.abus .bottom .right{
+    width: 536px;
+    height: 360px;
+    /*background: red;*/
+    float: right;
+    margin-left: 100px;
+    background-image: url("../img/t3.png");
+    background-size: cover;
+}
+.promise{
+    width: 100%;
+    height: 1045px;
+    background: #232323;
+}
+.promise .ding{
+    width: 100%;
+    height: 132px;
+    font-size: 36px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 132px;
+}
+.promise .ding h1{
+    font-size: 100px;
+    font-weight: normal;
+    color: rgb(241,58,58);
+}
+.promise .zi{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(169,169,169);
+}
+.di .main{
+    width: 1200px;
+    height: auto;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.di .main .box{
+    width: 350px;
+    height: 275px;
+    background: #454545;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.di .main .box:nth-child(4){
+    margin-bottom: 0;
+}
+.di .main .box:nth-child(5){
+    margin-bottom: 0;
+}
+.di .main .box:nth-child(6){
+    margin-bottom: 0;
+}
+.di .main .box h1{
+    font-size: 29px;
+    font-weight: normal;
+    color: rgb(255,255,255);
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.di .main .box p{
+    font-size: 12px;
+    color: rgb(255,255,255);
+}
+.end{
+    width: 100%;
+    height: 285px;
+    background: #171717;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.end .main{
+    width: 1117px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.end .ebox h1{
+    font-weight: normal;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.end .ebox p{
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.end .ebox .cl{
+    font-weight: normal;
+    font-size: 24px;
+    color: #f13a3a;
+}
+.end .ebox h2{
+    font-weight: normal;
+    font-size: 24px;
+    color: #ffffff;
+}
+.end .ebox .etop{
+    display: flex;
+    flex-direction: row;
+}
+.end .ebox .zixun{
+    width: 161px;
+    height: 38px;
+    background: #f13a3a;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 38px;
+}

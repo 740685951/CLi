@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    /*width: 1519.2px;*/
+    width: 100%;
+    height: auto;
+}
+.top{
+    width: 100%;
+    height:158px;
+    background: #151515;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top .left{
+    width: 310px;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+}
+.top .left h1{
+    font-size: 30px;
+    color: #f13a3a;
+    line-height: 100%;
+}
+.top .left h2{
+    font-size: 30px;
+    color: #ffffff;
+}
+.top .right{
+    width: 440px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.top .right .box{
+    width: 25%;
+    height: 50px;
+}
+.top .right .box a:hover{
+    color: #f1291d;
+}
+.top .right .box a{
+    font-size: 17px;
+    color: #555555;
+    text-align: center;
+    line-height: 50px;
+}
+.top .right .box .active{
+    color: #f1291d;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/banner.png");
+    background-position: center;
+}
+.lat{
+    width: 100%;
+    height: 605px;
+    background: #171717;
+}
+.lat .ltop{
+    width: 100%;
+    height: 185px;
+    border-bottom: 1px solid #2d2d2d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.lat .ltop .box{
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-image: url("../img/tubiao.png");
+    margin-right: 15px;
+}
+.lat .ltop .left p{
+    font-size: 14px;
+    color: rgb(169,169,169);
+}
+.lat .ltop .left h1{
+    font-size: 30px;
+    font-weight: normal;
+    color: #ffffff;
+}
+.lat .ltop .left h2{
+    font-size: 30px;
+    font-weight: normal;
+    color: rgb(241,58,58);
+}
+.lat .ltop .left .center{
+    width: 410px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lat .ltop .left .center .shu{
+    width: 2px;
+    height: 35px;
+    background: rgb(169,169,169);
+}
+.lat .lbottom .main{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lat .lbottom .main .box{
+    width: 380px;
+    height: 260px;
+    margin-top: 100px;
+}
+.pc{
+    width: 100%;
+    height: 1564px;
+    background: #171717;
+}
+.pc .ptop{
+    width: 100%;
+    height: 185px;
+    border-bottom: 1px solid #2d2d2d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.pc .ptop .box{
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-image: url("../img/tubiao.png");
+    margin-right: 15px;
+}
+.pc .ptop .left p{
+    font-size: 14px;
+    color: rgb(169,169,169);
+}
+.pc .ptop .left h1{
+    font-size: 30px;
+    font-weight: normal;
+    color: #ffffff;
+}
+.pc .ptop .left h2{
+    font-size: 30px;
+    font-weight: normal;
+    color: rgb(241,58,58);
+}
+.pc .ptop .left .center{
+    width: 455px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pc .ptop .left .center .shu{
+    width: 2px;
+    height: 35px;
+    background: rgb(169,169,169);
+}
+.pc .pbottom .main{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.pc .pbottom .main .box{
+    width: 386px;
+    height: 386px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.pc .pbottom .main .box img{
+    display: block;
+    transition: all 0.5s;
+}
+.pc .pbottom .main .box:hover img{
+    transform: scale(1.1,1.1);
+}
+.gt{
+    width: 100%;
+    height: 1054px;
+    background: #232323;
+}
+.gt .gtop{
+    width: 100%;
+    height: 185px;
+    border-bottom: 1px solid #2d2d2d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.gt .gtop .box{
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-image: url("../img/tubiao.png");
+    margin-right: 15px;
+}
+.gt .gtop .left p{
+    font-size: 14px;
+    color: rgb(169,169,169);
+}
+.gt .gtop .left h1{
+    font-size: 30px;
+    font-weight: normal;
+    color: #ffffff;
+}
+.gt .gtop .left h2{
+    font-size: 30px;
+    font-weight: normal;
+    color: rgb(241,58,58);
+}
+.gt .gtop .left .center{
+    width: 410px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gt .gtop .left .center .shu{
+    width: 2px;
+    height: 35px;
+    background: rgb(169,169,169);
+}
+.gt .main{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gt .main .box{
+    margin-top: 90px;
+}
+.gt .main .box .ding:hover img{
+    transform: scale(1.1,1.1);
+}
+.gt .main .box .ding img{
+    display: block;
+    transition: all 0.5s;
+}
+.gt .main .box .ding{
+    width: 390px;
+    height: 500px;
+    overflow: hidden;
+}
+.gt .main .box p{
+    font-size: 16px;
+    color: rgb(169,169,169);
+    margin-top: 10px;
+}
+.end{
+    width: 100%;
+    height: 285px;
+    background: #171717;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.end .main{
+    width: 1117px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.end .ebox h1{
+    font-weight: normal;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.end .ebox p{
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.end .ebox .cl{
+    font-weight: normal;
+    font-size: 24px;
+    color: #f13a3a;
+}
+.end .ebox h2{
+    font-weight: normal;
+    font-size: 24px;
+    color: #ffffff;
+}
+.end .ebox .etop{
+    display: flex;
+    flex-direction: row;
+}
+.end .ebox .zixun{
+    width: 161px;
+    height: 38px;
+    background: #f13a3a;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 38px;
+}
